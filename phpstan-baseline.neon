@@ -6,6 +6,11 @@ parameters:
 			path: src/MongoDBBusServiceProvider.php
 
 		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 4
+			path: src/MongoDBServiceProvider.php
+
+		-
 			message: "#^Method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:push\\(\\) invoked with 3 parameters, 0 required\\.$#"
 			count: 3
 			path: src/Relations/BelongsToMany.php
